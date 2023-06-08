@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[execution started for suite level]]>
+    </line>
+    <line>
+      <![CDATA[Exeuition started in class level]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-07T09:45:26 IST" name="Suite" finished-at="2023-06-07T09:46:02 IST" duration-ms="35549">
+    <groups>
+    </groups>
+    <test started-at="2023-06-07T09:45:26 IST" name="Test" finished-at="2023-06-07T09:46:02 IST" duration-ms="35549">
+      <class name="testclass.ActitimeLoginLogout">
+        <test-method is-config="true" signature="executionStart()[pri:0, instance:testclass.ActitimeLoginLogout@52e6fdee]" started-at="2023-06-07T09:45:26 IST" name="executionStart" finished-at="2023-06-07T09:45:26 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution started for suite level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionStart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testclass.ActitimeLoginLogout@52e6fdee]" started-at="2023-06-07T09:45:26 IST" name="setup" finished-at="2023-06-07T09:45:37 IST" duration-ms="10236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Exeuition started in class level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginlogout()[pri:0, instance:testclass.ActitimeLoginLogout@52e6fdee]" started-at="2023-06-07T09:45:37 IST" name="loginlogout" finished-at="2023-06-07T09:46:02 IST" duration-ms="24988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testclass.ActitimeLoginLogout@52e6fdee]" started-at="2023-06-07T09:46:02 IST" name="teardown" finished-at="2023-06-07T09:46:02 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="executionComplete()[pri:0, instance:testclass.ActitimeLoginLogout@52e6fdee]" started-at="2023-06-07T09:46:02 IST" name="executionComplete" finished-at="2023-06-07T09:46:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executionComplete -->
+      </class> <!-- testclass.ActitimeLoginLogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
