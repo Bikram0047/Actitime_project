@@ -10,7 +10,7 @@ public class ActitimeCreateNewLeaveType
 	@FindBy(xpath="//input[@id='leaveTypeLightBox_nameField']")
 	private WebElement createnewleavetype;
 	
-	@FindBy(xpath="(//span[.='Create Leave Type'])[2]")
+	@FindBy(xpath="(//span[contains(text(),'Create Leave Type')])[2]")
 	private WebElement secondcreatenewleave;
 	
 	public ActitimeCreateNewLeaveType  ( WebDriver driver)

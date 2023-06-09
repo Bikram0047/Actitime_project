@@ -38,6 +38,8 @@ public class ActitimeLeaveTypeAndLogout extends BasePage
 			newleavetype.createnewleavetypeMethod();
 			newleavetype.secondcreateleavemethod();
 			
+			leavetype.deleteleavetypemethod();
+			alertaccept(driver);
 			homepageopen.logoutMethod();
 			
 	}

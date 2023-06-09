@@ -17,13 +17,13 @@ import Generic.Helper;
 public class CreateNewCustomer extends BasePage implements AutoConstant
 {    
 	public WebDriver driver;
-@FindBy(xpath="(//input[@placeholder='Enter Customer Name'])[2]")
+@FindBy(xpath="(//input[@placeholder='Enter Product Line Name'])[2]")
 private WebElement customertextfield;
 
-@FindBy(xpath="//textarea[@placeholder='Enter Customer Description']")
+@FindBy(xpath="//textarea[@placeholder='Enter Product Line Description']")
 private WebElement customerdescriptiontextfield;
 
-@FindBy(xpath="//div[.='Create Customer']")
+@FindBy(xpath="(//div[contains(text(),'Create')])[2]")
 private WebElement createcustomerlink;
 
 @FindBy(xpath="//div[@class='greyButton cancelBtn']")
@@ -43,8 +43,9 @@ public CreateNewCustomer ( WebDriver driver)
 	
 }
 
-public void customertextfieldMethod() throws IOException
+public void customertextfieldMethod() throws IOException, Throwable
  {
+	Helper.highlightelement(driver, customertextfield);
     customertextfield.sendKeys(ExcelLibrary.getcellvalue(sheet_createcustomer, 0, 0));
  }
 public void customerdescriptiontextfieldMethod() throws IOException, Throwable
